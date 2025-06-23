@@ -13,12 +13,12 @@ header img {
 }
 ul {
     list-style: none;
-    display: inline-block;
+    display: flex;
 }
 .submenu {
     display: none;
     position: absolute;
 }
-.menu a:hover {
+.menu li:hover .submenu {
     display: block;
 }
