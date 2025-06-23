@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+:root {
+    --cor0: white;
+    --cor1: #F7F3E4;
+    --cor2: #BDB180;
+    --cor3: #B09119;
+    --cor4: #000000;
+}
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -11,14 +19,24 @@ header img {
     width: 130px;
     height: 130px;
 }
-ul {
+.menu {
     list-style: none;
     display: flex;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    padding: 14px;
 }
 .submenu {
     display: none;
     position: absolute;
 }
+.submenu li {
+    margin: 7px 0px;
+}
 .menu li:hover .submenu {
+    border-bottom: 1px solid black;
+    color: var(--cor3);
     display: block;
 }
