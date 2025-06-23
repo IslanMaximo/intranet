@@ -2,35 +2,30 @@
 
 :root {
     --cor0: white;
-    --cor1: #F7F3E4;
+    --cor1: #f7f3e4e1;
     --cor2: #BDB180;
     --cor3: #B09119;
     --cor4: #000000;
 }
 
 * {
+    margin: 0%;
+    padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 header {
-    padding-bottom: 75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-.logo {
-    text-align: left;
-}
-.logo img {
-    display: inline;
-    border-radius: 50%;
-    width: 130px;
-    height: 130px;
-}
+
 .navegacao {
     text-align: right;
     display:inline;
 }
 .menu {
     list-style: none;
-    display: flex;
+    display: inline flex;
 }
 .menu a {
     color: black;
@@ -52,4 +47,5 @@ header {
 .menu li:hover .submenu {
     background-color: var(--cor1);
     display: block;
+    border-radius: 3px;
 }
