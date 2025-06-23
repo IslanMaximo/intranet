@@ -11,3 +11,13 @@ header img {
     width: 130px;
     height: 130px;
 }
+ul {
+    list-style: none;
+    display: inline-block;
+}
+ul .submenu {
+    display: none;
+}
+ul li:hover {
+    display: block;
+}
