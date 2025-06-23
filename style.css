@@ -33,13 +33,16 @@ header {
     padding: 5px 14px;
 }
 .menu a:hover {
-    border-bottom: 1px solid black;
     color: var(--cor3);
 }
 .submenu {
     list-style: none;
     display: none;
     position: absolute;
+    padding: 0px 15px;
+}
+.submenu a:hover {
+    border-bottom: 1px solid black;
 }
 .submenu li {
     margin: 7px 0px;
@@ -48,4 +51,7 @@ header {
     background-color: var(--cor1);
     display: block;
     border-radius: 3px;
+}
+.banner {
+    width: 100%;
 }
