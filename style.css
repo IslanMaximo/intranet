@@ -15,9 +15,10 @@ ul {
     list-style: none;
     display: inline-block;
 }
-ul .submenu {
+.submenu {
     display: none;
+    position: absolute;
 }
-ul li:hover {
+.menu a:hover {
     display: block;
 }
