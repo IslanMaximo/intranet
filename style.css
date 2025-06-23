@@ -12,12 +12,21 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-
-header img {
+header {
+    padding-bottom: 75px;
+}
+.logo {
+    text-align: left;
+}
+.logo img {
     display: inline;
     border-radius: 50%;
     width: 130px;
     height: 130px;
+}
+.navegacao {
+    text-align: right;
+    display:inline;
 }
 .menu {
     list-style: none;
@@ -33,6 +42,7 @@ header img {
     color: var(--cor3);
 }
 .submenu {
+    list-style: none;
     display: none;
     position: absolute;
 }
@@ -40,5 +50,6 @@ header img {
     margin: 7px 0px;
 }
 .menu li:hover .submenu {
+    background-color: var(--cor1);
     display: block;
 }
