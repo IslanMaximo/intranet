@@ -55,3 +55,13 @@ header {
 .banner {
     width: 100%;
 }
+#boas-vindas {
+    padding: 20px;
+    font-size: 1.7em;
+    width: 35%;
+}
+#apresentacao {
+    margin: 0%;
+    padding: 60px;
+    width: 45%;
+}
