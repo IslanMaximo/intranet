@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header img {
+    display: inline;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+header nav {
+    display: inline;
+    align-items: right;
+}
