@@ -37,6 +37,7 @@ header {
     color: var(--cor3);
 }
 .submenu {
+    width: 25%;
     list-style: none;
     display: none;
     position: absolute;
