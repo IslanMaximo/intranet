@@ -38,6 +38,7 @@ header {
 }
 .submenu {
     width: 25%;
+    margin-right: 10%;
     list-style: none;
     display: none;
     position: absolute;
