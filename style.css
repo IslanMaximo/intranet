@@ -12,6 +12,7 @@
     margin: 0%;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 div.top {
@@ -95,23 +96,27 @@ article {
     box-sizing: border-box;
     width: 54%;
     height: 100%;
+}
+article p {
     text-align: left;
     text-indent: 50px;
     font-size: 1.3em;
-    padding: 30px 0px;
-}
-article p {
     margin: 30px 0px;
 }
 footer {
+    padding: 20px;
     background-color: #000000;
-    border: 2px solid black;
     height: 100%;
     width: 100%;
 }
 footer  img {
-    margin: auto;
-    display: block;
-    width: 45px;
-    height: 45px;
+    margin: 0px 15px;
+    width: 50px;
+    height: 50px;
 }
+footer img:hover {
+    width: 53px;
+    height: 53px;
+    transition-duration: 0.3s;
+}
+
