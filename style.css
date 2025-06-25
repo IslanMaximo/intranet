@@ -34,7 +34,6 @@ div#logo {
 }
 div#navegacao {
     display: flex;
-    justify-content: right;
     align-items: center;
     margin-right: 70px;
     box-sizing: border-box;
