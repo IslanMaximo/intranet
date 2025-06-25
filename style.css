@@ -9,64 +9,102 @@
 }
 
 * {
-    width: 100%;
     margin: 0%;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-header {
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
-.navegacao {
+div.top {
+    margin-top: 5px;
+    display: inline-flex;
+    width: 100vw;
+    height: 50px;
     text-align: right;
-    display:inline;
+}
+div#logo {
+    background-image: url('image/top-2.png');
+    background-size: 130px 50px;
+    background-position: center center;
+    border-radius: 13px;
+    margin-left: 30px;
+    width: 150px;
+    height: 50px;
+}
+div#navegacao {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 70px;
+    box-sizing: border-box;
+    width:100%;
+    height:50px;
 }
 .menu {
     list-style: none;
     display: inline flex;
 }
 .menu a {
+    font-size: 1.1em;
+    margin: 0px 30px;
     color: black;
     text-decoration: none;
-    padding: 5px 14px;
 }
 .menu a:hover {
     color: var(--cor3);
 }
 .submenu {
+    font-size: 0.9em;
     text-align: center;
-    width: 10%;
     list-style: none;
     display: none;
     position: absolute;
-    padding: 0px 15px;
-}
-.submenu a:hover {
-    border-bottom: 1px solid black;
 }
 .submenu li {
-    margin:10px 0px;
+    margin: 10px 0px;
 }
 .menu li:hover .submenu {
     background-color: rgba(241, 241, 241, 0.952);
-    display: block;
     border-radius: 3px;
+    display: block;
 }
-.banner {
-    max-width: 100%;
-    min-width: 350px;
-    height: 500px;
-    margin-bottom: 30px;
+main {
+    max-height: 100%;
 }
-#boas-vindas {
+div#banner {
+    background-image: url('image/baner1.png');
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 540px;
+}
+div#apresentacao {
+    padding: 70px;
+    margin: auto;
+    box-sizing: border-box;
     display: inline-block;
-    font-size: 1.7em;
-    width: 35%;
+    width: 44%;
+    min-height: 75px;
+    max-height: 100%;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 4px 40px rgba(0, 0, 0, 0.342);
 }
-#apresentacao {
+article {
+    align-items: center;
     display: inline-block;
-    width: 35%;
+    box-sizing: border-box;
+    width: 54%;
+    height: 100%;
+    text-align: left;
+    text-indent: 50px;
+    font-size: 1.3em;
+    padding: 30px 0px;
+}
+article p {
+    margin: 30px 0px;
+}
+footer {
+    background-color: #000000;
+    border: 2px solid black;
+    height: 100px;
 }
