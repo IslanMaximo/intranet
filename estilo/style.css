@@ -70,7 +70,7 @@ main {
     
 }
 div#banner {
-    background-image: url('image/baner1.png');
+    background-image: url('../image/baner1.png');
     background-position: center center;
     background-size: cover;
     min-width: 350px;
