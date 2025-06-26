@@ -67,7 +67,7 @@ body {
 }
 main {
     max-height: 100vh;
-    
+    box-shadow: inset 6px 6px 12px black;
 }
 div#banner {
     background-image: url('../image/baner1.png');
