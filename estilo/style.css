@@ -20,7 +20,7 @@ div#navegacao {
     height: 50px;
 }
 div#navegacao nav {
-    max-width: 100%;
+    max-width: 96vw;
 }
 .menu {
     display: inline-flex;
@@ -56,12 +56,19 @@ body {
 main {
     max-height: 100vh;
 }
-table.lista.tel {
-    margin: auto;
-}
-table.lista.tel td{
-    border: 1px solid black;
+table.lista-tel {
+    margin: 0% 20px;
+    width: 96vw;
+    max-width: 96vw;
     border-collapse: collapse;
+}
+table.lista-tel th,td{
+    border: 1px solid black;
+    padding: 15px;
+}
+table.lista-tel th.meio,td.meio{
+    border: 0px ;
+    padding: 15px;
 }
 div#banner {
     background-image: url('../image/baner1.png');
