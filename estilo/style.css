@@ -74,7 +74,6 @@ div#banner {
     background-image: url('../image/baner1.png');
     background-position: center center;
     background-size: cover;
-    min-width: 350px;
     max-width: 100%;
     height: 540px;
 }
@@ -84,25 +83,19 @@ div#apresentacao {
     box-sizing: border-box;
     display: inline-block;
     max-width:40%;
-    min-width: 350px;
-    min-height: 75px;
     max-height: 100%;
-    font-size: 2em;
-    text-align: center;
+    font-size: 2.5vw;
     text-shadow: 2px 4px 40px rgba(0, 0, 0, 0.342);
 }
 article {
-    align-items: center;
     display: inline-block;
     box-sizing: border-box;
     max-width:50%;
-    min-width: 350px;
-    height: 100%;
 }
 article p {
     text-align: left;
     text-indent: 50px;
-    font-size: 1.3em;
+    font-size: 1.5vw;
     margin: 60px 0px;
 }
 footer {
