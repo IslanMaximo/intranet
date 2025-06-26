@@ -18,34 +18,29 @@
 div.top {
     margin-top: 5px;
     display: inline-block;
-    width: 100vw;
+    max-width: 100%;
     height: 50px;
 }
 div#logo {
     background-image: url('image/top-2.png');
-    background-size: 130px 50px;
+    background-size: cover;
     background-position: center center;
+    display: flex;
     border-radius: 13px;
-    margin-left: 30px;
-    min-width: 30px;
-    max-width: 150px;
+    width: 150px;
     height: 50px;
 }
 div#navegacao {
     display: flex;
     align-items: center;
-    box-sizing: border-box;
-    min-width: 150px;
-    max-width:100%;
     height:50px;
 }
 .menu {
+    display: inline-flex;
     list-style: none;
-    display: inline flex;
 }
 .menu a {
-    font-size: 1.1em;
-    margin: 0px 30px;
+    margin: 0px 20px;
     color: black;
     text-decoration: none;
 }
@@ -53,7 +48,6 @@ div#navegacao {
     color: var(--cor3);
 }
 .submenu {
-    font-size: 0.9em;
     text-align: center;
     list-style: none;
     display: none;
@@ -68,12 +62,12 @@ div#navegacao {
     display: block;
 }
 body {
-    height: 100vh;
-    width: 100vw;
+    max-height: 100vh;
+    max-width: 100vw;
 }
 main {
-    min-height: 100vh;
-    max-height: 100%;
+    max-height: 100vh;
+    
 }
 div#banner {
     background-image: url('image/baner1.png');
