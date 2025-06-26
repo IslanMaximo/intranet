@@ -16,8 +16,9 @@
 }
 
 div#navegacao {
-    margin: 15px;
+    margin-top: 15px;
     height: 50px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.349);
 }
 div#navegacao nav {
     max-width: 96vw;
@@ -56,8 +57,11 @@ body {
 main {
     max-height: 100vh;
 }
+main h1 {
+    padding: 30px;
+}
 table.lista-tel {
-    margin: 0% 20px;
+    margin: 20px;
     width: 96vw;
     max-width: 96vw;
     border-collapse: collapse;
@@ -67,9 +71,14 @@ table.lista-tel th,td{
     padding: 15px;
 }
 table.lista-tel th.meio,td.meio{
+    background-color: rgb(253, 253, 253);
     border: 0px ;
     padding: 15px;
 }
+table.lista-tel tr#marcado{
+    background-color: var(--cor2);
+}
+
 div#banner {
     background-image: url('../image/baner1.png');
     background-position: center center;
