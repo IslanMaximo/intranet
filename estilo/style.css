@@ -70,6 +70,10 @@ main {
 table.lista.tel {
     margin: auto;
 }
+table.lista.tel td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
 div#banner {
     background-image: url('../image/baner1.png');
     background-position: center center;
