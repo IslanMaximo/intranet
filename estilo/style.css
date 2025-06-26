@@ -63,7 +63,7 @@ div#navegacao nav {
 }
 body {
     max-height: 100vh;
-    max-width: 100vw;
+    max-width: 100%;
 }
 main {
     max-height: 100vh;
