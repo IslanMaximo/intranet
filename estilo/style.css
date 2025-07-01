@@ -6,6 +6,7 @@
     --cor2: #BDB180;
     --cor3: #B09119;
     --cor4: #000000;
+    --cor5: rgba(158, 158, 158, 0.425);
 }
 
 * {
@@ -62,11 +63,19 @@ main h1 {
 }
 table.lista-tel {
     margin: 20px;
+    margin-bottom: 70px;
     width: 96vw;
     max-width: 96vw;
     border-radius: 15px;
     border-collapse: collapse;
 }
+caption {
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 1.3em;
+    font-variant: small-caps;
+}
+
 table.lista-tel th,td{
     border: 1px solid black;
     padding: 15px;
@@ -76,8 +85,8 @@ table.lista-tel th.meio,td.meio{
     border: 0px ;
     padding: 15px;
 }
-table.lista-tel tr#marcado{
-    background-color: var(--cor2);
+table.lista-tel tr:nth-child(2n){
+    background-color: var(--cor5);
 }
 
 div#banner {
