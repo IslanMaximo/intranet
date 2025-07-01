@@ -41,7 +41,12 @@ div#navegacao {
     display: none;
     position: absolute;
 }
+ul.menu {
+    background-color: bisque;
+    width: 100vw;
+}
 .submenu li {
+    width: 60px;
     margin: 10px 0px;
 }
 .menu li:hover .submenu {
