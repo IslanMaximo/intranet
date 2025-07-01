@@ -2,7 +2,7 @@
 
 :root {
     --cor0: white;
-    --cor1: #f7f3e4e1;
+    --cor1: #f7f3e4ee;
     --cor2: #BDB180;
     --cor3: #B09119;
     --cor4: #000000;
@@ -68,9 +68,6 @@ body {
 strong {
     font-variant: small-caps;
 }
-main {
-    padding-bottom: 75px;
-}
 main h1 {
     font-size: 2.5em;
     padding: 30px;
@@ -124,8 +121,9 @@ div#banner {
     height: 540px;
 }
 aside {
-    text-indent: 80px;
-    width: 80%;
+    line-height: 2em;
+    text-indent: 20px;
+    width: 70%;
     margin: auto;
     padding-bottom: 75px;
     text-align: justify;
