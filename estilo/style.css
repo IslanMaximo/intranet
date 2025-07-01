@@ -64,6 +64,7 @@ table.lista-tel {
     margin: 20px;
     width: 96vw;
     max-width: 96vw;
+    border-radius: 15px;
     border-collapse: collapse;
 }
 table.lista-tel th,td{
