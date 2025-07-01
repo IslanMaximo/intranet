@@ -18,11 +18,9 @@
 
 div#navegacao {
     margin-top: 15px;
+    width: 100%;
     height: 50px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.349);
-}
-div#navegacao nav {
-    max-width: 96vw;
 }
 .menu {
     display: inline-flex;
@@ -52,8 +50,8 @@ div#navegacao nav {
     display: block;
 }
 body {
-    max-height: 100%;
-    max-width: 100%;
+    height: 100%;
+    width: 100%;
 }
 main {
     max-height: 100vh;
