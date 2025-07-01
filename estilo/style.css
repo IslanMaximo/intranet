@@ -65,6 +65,9 @@ body {
     padding-bottom: 50px;
     margin-bottom: 50px;
 }
+main {
+    width: 96vw;
+}
 strong {
     font-variant: small-caps;
 }
