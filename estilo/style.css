@@ -17,7 +17,7 @@
 }
 
 div#navegacao {
-    margin-top: 20px;
+    margin-top: 10px;
     padding-bottom: 10px;
     width: 100%;
     min-height: 50px;
@@ -28,11 +28,12 @@ nav {
     width: 96vw;
 }
 nav a {
-    margin: 10px;
+    font-variant: small-caps;
     padding: 10px;
     text-decoration: none;
 }
 ul.menu li {
+    margin: 15px;
     display: inline-block;
 }
 ul.submenu {
