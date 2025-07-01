@@ -42,7 +42,7 @@ ul.menu li {
     display: inline-block;
 }
 ul.submenu {
-    background-color: rgb(223, 223, 223);
+    background-color: var(--cor1);
     border-radius: 20px;
     position: absolute;
     display: none;
