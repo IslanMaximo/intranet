@@ -69,7 +69,7 @@ strong {
     font-variant: small-caps;
 }
 main {
-    max-height: 100vh;
+    padding-bottom: 75px;
 }
 main h1 {
     font-size: 2.5em;
