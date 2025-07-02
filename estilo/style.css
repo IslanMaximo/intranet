@@ -82,8 +82,12 @@ div.instrucoes li, h3{
     margin-left: 50px ;
     list-style: none;
 }
+div#contaner {
+    margin: auto;
+    overflow-x: auto;
+}
 table.lista-tel {
-    width: 85%;
+    width: 100%;
     margin: 20px auto;
     border-collapse: collapse;
 }
