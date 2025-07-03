@@ -27,6 +27,7 @@ div#navegacao {
     
 }
 nav {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.171);
     width: 100%;
 }
 nav a {
