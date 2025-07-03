@@ -90,6 +90,9 @@ div.instrucoes li, h3{
     margin-left: 50px ;
     list-style: none;
 }
+ul {
+    margin-top: 10px;
+}
 div#contaner {
     margin: auto;
     overflow-x: auto;
