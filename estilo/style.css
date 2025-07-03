@@ -132,14 +132,6 @@ table.lista-tel tr:nth-child(2n){
 
 /*----------BANNER-----------*/
 
-div#banner {
-    position: relative;
-    background-image: url('../image/baner1.png');
-    background-position: center center;
-    background-size: cover;
-    max-width: 100%;
-    height: 540px;
-}
 iframe#banner {
     background-color: aqua;
     width: 100%;
