@@ -111,7 +111,9 @@ thead tr th {
 }
 
 /* ----------TABELA LISTA TELEFONICA-----------*/
-
+table.lista-tel {
+    width: 70%;
+}
 table.lista-tel th,td{
     border: 1px solid black;
     padding: 15px;

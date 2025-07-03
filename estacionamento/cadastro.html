@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="../estilo/style.css">
     <title>TORRITON</title>
 </head>
 <body>
     <header>
+        <div class="top">
+            <div  id="logo">
+            </div>
             <div id="navegacao">
                 <nav>
                     <ul class="menu">
@@ -15,9 +18,9 @@
                             <a href="#">Taunay</a>
                             <ul class="submenu">
                                 <li>
-                                    <a href="taunay/lista.tel.html">Lista telefonica</a>
+                                    <a href="#">Lista telefonica</a>
                                 <li><a href="#">Profissionais</a>
-                                <li><a href="teste.html">Vazio</a>
+                                <li><a href="#">teste</a>
             
                             </ul>
                         </li>
@@ -94,14 +97,31 @@
                     </ul>
                 </nav>
             </div>
+        </div>
     </header>
-  
+    <main>
+        <div>
+            <form action="">
+                <p>Placa: <input type="text" name="cadastro-placa" id="cadastro-placa"></p>
+                <p>Modelo: <input type="text" name="cadastro-modelo" id="cadastro-modelo" list="Moldelos"></p>
+                <datalist id="sugestoes-cidades">
+                    <option value="Curitiba">
+                    <option value="São Paulo">
+                    <option value="Rio de Janeiro">
+                    <option value="Belo Horizonte">
+                </datalist>
+                <p>Cor <input type="text" name="cadastro-cor" id="cadastro-cor"></p>
+                <p>Data <input type="" name="cadastro-data" id="cadastro-data"></p>
+            </form>
+        </div>
+    </main>
+   
     <footer>
-        <abbr title="Estacionamento"><a href="#"><img src="image/estacionamento.png" alt=""></a></abbr>
-        <abbr title="Dúvidas"><a href="#"><img src="image/questions.png" alt="Perguntas"></a></abbr>
-        <abbr title="HOME"><a href=""><img src="image/home.png" alt="Perguntas"></a></abbr>
-        <abbr title="T.i"><a href=""><img src="image/t.i.png" alt="Perguntas"></a></abbr>
-        <abbr title="Galeria"><a href=""><img src="image/galeria.png" alt="Perguntas"></a></abbr>
+        <abbr title="Estacionamento"><a href="#"><img src="../image/estacionamento.png" alt=""></a></abbr>
+        <abbr title="Dúvidas"><a href="#"><img src="../image/questions.png" alt="Perguntas"></a></abbr>
+        <abbr title="HOME"><a href="../index.html"><img src="../image/home.png" alt="Perguntas"></a></abbr>
+        <abbr title="T.i"><a href=""><img src="../image/t.i.png" alt="Perguntas"></a></abbr>
+        <abbr title="Galeria"><a href=""><img src="../image/galeria.png" alt="Perguntas"></a></abbr>
     </footer>
     
     
