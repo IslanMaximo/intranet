@@ -16,7 +16,9 @@
     text-align: center;
 }
 
-div#navegacao, iframe#nav {
+/*-----------Header-----------*/
+
+div#navegacao {
     margin-top: 10px;
     padding-bottom: 10px;
     width: 100%;
@@ -57,9 +59,14 @@ ul.submenu li {
     border-radius: 10px;
 }
 .menu li:hover ul.submenu {
+    margin-bottom: 2px;
     display: block;
 }
+
+/*---------- FIM DO HEADER-----------*/
+
 body {
+    position: relative;
     height: 100%;
     width: 100%;
     padding-bottom: 50px;
@@ -103,6 +110,8 @@ thead tr th {
     color: white;    
 }
 
+/* ----------TABELA LISTA TELEFONICA-----------*/
+
 table.lista-tel th,td{
     border: 1px solid black;
     padding: 15px;
@@ -115,6 +124,8 @@ table.lista-tel th.meio,td.meio{
 table.lista-tel tr:nth-child(2n){
     background-color: var(--cor5);
 }
+
+/* ----------FIM TABELA LISTA TELEFONICA-----------*/
 
 div#banner {
     background-image: url('../image/baner1.png');
@@ -131,10 +142,14 @@ aside {
     padding-bottom: 75px;
     text-align: justify;
 }
-footer, iframe#footer {
-    text-align: center;
+
+/* ----------footer-----------*/
+
+footer{
+    margin-top: 10px;
     position: fixed;
     bottom: 0;
+    text-align: center;
     background-color: #000000;
     height: 50px;
     width: 100%;
@@ -149,4 +164,4 @@ footer img:hover {
     height: 53px;
     transition-duration: 0.3s;
 }
-
+/* ----------FIM footer-----------*/
