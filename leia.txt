@@ -1,0 +1,1 @@
+Ao Alterar nav ou footer lembrar de alterar em todas as paginas 
