@@ -145,12 +145,19 @@ iframe#banner {
 }
 div.boton img {
     background-color: black;
-    position: absolute;
-    top: 34%;
-    left: 88%;
     width: 70px;
      border-radius: 50%;
      border: 1px solid white;
+}
+div.boton#rigth img {
+    position: absolute;
+        top: 34%;
+        left: 88%;
+}
+div.boton#left img {
+    position: absolute;
+        top: 34%;
+        left: 8%;
 }
 
 /*-----------FIM BANNER ----------*/
