@@ -2,12 +2,18 @@
 
 @media print {
     * {
-    display: none;
-    margin: 0%;
-    padding: 0%;
+        margin: 0%;
+        padding: 0%;
     }
-    body {
+    header, footer, div.instrucoes, h1 {
+        display: none;
+    }
+    table.lista-tel {
+        font-size: .5em;
         display: block;
+        width: 90;
+        height: 90%;
+        padding: 0%;
     }
 }
 
