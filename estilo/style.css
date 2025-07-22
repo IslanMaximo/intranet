@@ -149,7 +149,15 @@ table.profissionais td{
 table.profissionais tr:nth-child(2n){
     background-color: var(--cor5);
 }
-
+table#fixo{
+    position: relative;
+}
+thead#profissionais tr th{
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+}
 /* ----------FIM TABELA PROFISSIONAIS-----------*/
 
 /*----------BANNER-----------*/
