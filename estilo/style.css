@@ -23,8 +23,7 @@ div#navegacao {
     padding-bottom: 10px;
     width: 100%;
     min-height: 50px;
-    max-width: 100%;
-    
+    max-width: 100%; 
 }
 nav {
     border-bottom: 2px solid rgba(0, 0, 0, 0.171);
@@ -97,8 +96,11 @@ div#contaner {
     margin: auto;
     overflow-x: auto;
 }
+
+/* ----------TABELA LISTA TELEFONICA-----------*/
+
 table.lista-tel {
-    width: 100%;
+    width: 70%;
     margin: 20px auto;
     border-collapse: collapse;
 }
@@ -109,20 +111,16 @@ caption {
     font-size: 1.3em;
     font-variant: small-caps;
 }
-thead tr th {
-    background-color: var(--cor4);
-    color: white;    
+
+thead{
+    background-color: var(--cor5);
 }
 
-/* ----------TABELA LISTA TELEFONICA-----------*/
-table.lista-tel {
-    width: 70%;
-}
 table.lista-tel th,td{
     border: 1px solid black;
     padding: 15px;
 }
-table.lista-tel th.meio,td.meio{
+table.lista-tel td.meio{
     background-color: rgb(253, 253, 253);
     border: 0px ;
     padding: 15px;
@@ -132,6 +130,27 @@ table.lista-tel tr:nth-child(2n){
 }
 
 /* ----------FIM TABELA LISTA TELEFONICA-----------*/
+
+/* ----------INICIO TABELA PROFISSIONAIS-----------*/
+
+table.profissionais {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+table.profissionais th{
+    border: 1px solid black;
+    padding: 15px 40px;
+}
+table.profissionais td{
+    border: 1px solid black;
+    padding: 15px 40px;
+}
+table.profissionais tr:nth-child(2n){
+    background-color: var(--cor5);
+}
+
+/* ----------FIM TABELA PROFISSIONAIS-----------*/
 
 /*----------BANNER-----------*/
 
