@@ -112,11 +112,9 @@ caption {
     font-size: 1.3em;
     font-variant: small-caps;
 }
-
 thead{
     background-color: var(--cor5);
 }
-
 table.lista-tel th,td{
     border: 1px solid black;
     padding: 15px;
@@ -149,14 +147,6 @@ table.profissionais td{
 }
 table.profissionais tr:nth-child(2n){
     background-color: var(--cor5);
-}
-table#fixo{
-    position: relative;
-}
-thead#profissionais tr th{
-    position: sticky;
-    top: -8px;
-    background-color:var(--cor6);
 }
 /* ----------FIM TABELA PROFISSIONAIS-----------*/
 
